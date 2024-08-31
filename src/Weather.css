@@ -1,0 +1,93 @@
+
+
+
+.weather{
+    display: flex;
+position: relative;
+    padding: 40px;
+    place-self: center ;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top,#003366 ,#D3D3D3);
+border-radius: 10px;
+}
+.search-bar{
+display: flex;
+align-items: center;
+gap: 14px;
+
+}
+
+.weather input{
+width: 250px;
+padding: 10px;
+height: 50px;
+border: none;
+border-radius: 50px;
+}
+.weather .search{
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.col{
+    display: block;
+    text-align: center;
+}
+
+.weather .state{
+    width: 110px;
+    margin: 20px;
+}
+.col {
+    color: white;
+}
+
+.col .degree{
+    font-size: 45px;
+   
+}
+.col .city {
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.info img {
+    width: 30px;
+}
+
+.weather .info1 {
+ 
+    padding:10px;
+    position: absolute;
+ bottom: 10px;
+ left: 40px;
+
+
+}
+.info p{
+    font-size: 17px;
+    padding: 5px 0;
+}
+
+.weather .info2 {
+    padding:10px;
+    position: absolute;
+ bottom: 10px;
+ right: 40px;
+
+
+}
+.info span {
+    font-weight: bold;
+
+}
